@@ -76,8 +76,8 @@ request.getAttribute("admin").getEmail() : ${admin.email}
 <%
 //이 부분을 서블릿으로 처리한다.
 List<AdminVO> adminList = new ArrayList<>();
-adminList.add(new AdminVO("ss@naver.com", "김", "1234"));
-adminList.add(new AdminVO("aa@naver.com", "이", "1234"));
+/* adminList.add(new AdminVO("ss@naver.com", "김", "1234"));
+adminList.add(new AdminVO("aa@naver.com", "이", "1234")); */
 request.setAttribute("adminList", adminList);
 
 HashMap<String, Integer> map1 = new HashMap<String,Integer>();
