@@ -29,6 +29,7 @@ public class LoginController implements CommonControllerInterface {
 			ServletContext app = request.getServletContext();
 			Object obj = app.getAttribute("userList");
 			List<AdminVO> userList = null;
+			int notUsing = 333;
 			if (admin != null) {
 				if (obj == null) {
 					userList = new ArrayList<>();
